@@ -1,5 +1,5 @@
 from src.base_net import *
-from hessian_operations import sample_K_laplace_MN, softmax_CE_preact_hessian, layer_act_hessian_recurse
+from src.KF_Laplace.hessian_operations import sample_K_laplace_MN, softmax_CE_preact_hessian, layer_act_hessian_recurse
 import torch.nn as nn
 import torch.nn.functional as F
 
